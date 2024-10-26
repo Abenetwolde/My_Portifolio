@@ -1,7 +1,13 @@
+// projectsData.js
 
+// Import images from local assets
+import image1 from '../assets/images/project1-image1.jpg';
+import image2 from '../assets/images/project1-image2.jpg';
+import flutterImage from '../assets/images/flutter-project.jpg';
+import phpImage from '../assets/images/php-project.jpg';
 
-{
-  "main": {
+export const projects = {
+ main: {
     "name": "Abnet Wolde",
     "shortDesc": "I focus on developing user-friendly web, and mobile applications that meet the client's requirements, with attention to detail, scalability, and performance.",
     "titles": [
@@ -18,7 +24,7 @@
      
     ]
   },
-  "about": {
+  about: {
     "aboutImage": "https://img.freepik.com/free-psd/3d-illustration-person-with-sunglasses_23-2149436188.jpg",
     "aboutImageCaption": "< Stick to you Guns 🚀/>",
     "title": "Full Stack Developer",
@@ -26,7 +32,7 @@
     "callUrl": "",
     "resumeUrl": ""
   },
-  "socials": [
+  socials: [
     {
       "icon": "FaLinkedin",
       "link": "https://www.linkedin.com/in/abnet-wolde-8b3923220/"
@@ -44,7 +50,7 @@
       "link": "https://twitter.com/jhondoe"
     }
   ],
-  "skills": [
+  skills: [
     {
       "name": "JavaScript",
       "image": "https://img.icons8.com/color/144/null/javascript--v1.png",
@@ -195,7 +201,7 @@
       "category": "Tools"
     }
   ],
-  "projects": [
+  projects: [
     {
       "name": "Project Title",
       "techstack": "HTML5, CSS3, JavaScript, jQuery",
@@ -230,7 +236,7 @@
       }
     }
   ],
-  "educations": [
+  educations: [
     {
       "institute": "XYZ School | CBSE",
       "degree": "HSC Science",
@@ -247,7 +253,7 @@
       ]
     }
   ],
-  "experiences": [
+  experiences: [
     {
       "company": "ABC Tech Solutions",
       "position": "Web Developer",
